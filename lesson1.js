@@ -107,3 +107,4 @@ for(let i = 1; i < 11; i++){
 Promise.all(promicesArray).then(result=>{
     console.log(result);
 });
+
