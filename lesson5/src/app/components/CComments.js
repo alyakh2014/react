@@ -9,6 +9,7 @@ export default class CComments extends React.Component{
             comments: []
         }
     }
+
     render(){
 
         if(!this.state.comments){
