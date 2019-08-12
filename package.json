@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "webpack",
     "build": "webpack --mode production",
-    "watch": "webpack --mode development --watch"
+    "watch": "webpack --mode development --watch",
+    "start": "webpack-dev-server --open"
   },
   "author": "",
   "license": "ISC",
@@ -14,10 +15,26 @@
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
+    "axios": "^0.19.0",
     "babel-loader": "^8.0.6",
+    "bootstrap": "^4.3.1",
+    "css-loader": "^3.1.0",
+    "flux": "^3.1.3",
+    "jquery": "^3.4.1",
+    "popper": "^1.0.1",
     "react": "^16.8.6",
+    "react-d": "^1.0.0",
     "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "react-router": "^3.2.3",
+    "react-router-dom": "^5.0.1",
+    "redux": "^4.0.4",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^6.1.1",
+    "redux-thunk": "^2.3.0",
+    "style-loader": "^0.23.1",
     "webpack": "^4.36.1",
-    "webpack-cli": "^3.3.6"
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
   }
 }
